@@ -28,7 +28,7 @@ function getTimeString(){
 > It gives the time with the format `HH:MM`
 
 Create a listener :
-```
+```javascript
 function listener(event){
   // My function's value changed so let's do something about it
   alert(`getTimeString's value changed.\n ${event.old_value}➝${event.new_value}`);
@@ -51,7 +51,7 @@ var test = null;
 ```
 
 Create a listener :
-```
+```javascript
 function listener(event){
   // My function's value changed so let's do something about it
   alert(`test's value changed.\n ${event.old_value}➝${event.new_value}`);
