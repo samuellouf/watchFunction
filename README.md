@@ -15,6 +15,7 @@ If you want to use it online, download [this script](https://samuellouf.github.i
 ## Usage
 > [!NOTE]  
 > `watchFunction` checks a function/variable every 8th of a second.
+
 You can use `watchFunction` to watch :
 ### Functions
 I have a function :
@@ -24,6 +25,7 @@ function getTimeString(){
   return date.getHours() + ':' + date.getMinutes();
 }
 ```
+
 > [!NOTE]  
 > It gives the time with the format `HH:MM`
 
